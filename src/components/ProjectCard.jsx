@@ -64,11 +64,11 @@ function ProjectCard({
       {/* Image Carousel */}
       <div className="flex flex-1 flex-col justify-center border-t border-white/10 p-4 sm:p-6 lg:border-l lg:border-t-0">
 
-        <div className="overflow-hidden rounded-lg border border-white/10 bg-[#0f1110]">
+        <div className="flex items-center justify-center overflow-hidden rounded-lg border border-white/10 bg-[#0f1110]">
           <img
             src={images[currentImage]}
             alt={`${title} screenshot`}
-            className="aspect-video w-full object-cover"
+            className="max-h-[400px] w-full object-contain"
           />
         </div>
 
