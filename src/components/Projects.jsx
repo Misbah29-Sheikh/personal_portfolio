@@ -19,6 +19,14 @@ function Projects() {
       github: "https://github.com/Misbah29-Sheikh/Hotel_management"
     },
     {
+      title: "Marvel Character Quiz",
+      description: "A full-stack Marvel character guessing quiz where players identify characters from blurred images across 20 timed questions. The app randomly selects characters and answer options, tracks scores, and stores the leaderboard using a Node.js/Express backend and MongoDB.",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Docker", "Superhero API"],
+      images: ["/images/weather1.png","/images/weather2.png"],
+      github: "https://github.com/Misbah29-Sheikh/marvel_quiz",
+      liveDemo: "https://marvel-quiz-git-main-misbah22.vercel.app/"
+    },
+    {
       title: "Weather App",
       description: "A React-based weather application that fetches real-time weather data from an external API. Users can search for locations and view current weather information through a responsive and interactive interface.",
       technologies: ["React.js", "JavaScript", "Weather API"],
