@@ -22,7 +22,7 @@ function Projects() {
       title: "Marvel Character Quiz",
       description: "A full-stack Marvel character guessing quiz where players identify characters from blurred images across 20 timed questions. The app randomly selects characters and answer options, tracks scores, and stores the leaderboard using a Node.js/Express backend and MongoDB.",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Docker", "Superhero API"],
-      images: ["/images/weather1.png","/images/weather2.png"],
+      images: ["/images/quiz1.png","/images/quiz2.png","/images/quiz3.png"],
       github: "https://github.com/Misbah29-Sheikh/marvel_quiz",
       liveDemo: "https://marvel-quiz-git-main-misbah22.vercel.app/"
     },
